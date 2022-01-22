@@ -1,7 +1,7 @@
 # Transfer-Vocal-Only-Audio-to-UST-File
 ## PLAN PART 0: Preprocessing
 
-- load the audio of different sampling rates(the voicebank & the audio), produce the array for the original audio, and separate it by characters.
+- load the audio of different sampling rates(the voicebank & the audio), produce the array for the original audio.
 
 The basic application of **librosa** is needed. 
 
@@ -9,11 +9,13 @@ The basic application of **librosa** is needed.
 
 ### 1.0 The lyrics and the adjustments for pronunciation 
 
-using **Incision** may be helpful
+using **Incision** may be helpful, , and in the process it will be possible separate it by characters.
+
+#### Transfer the lyric to CVVC mode?
 
 ### 1.1 The MIDI File
 
-**librosa.beat** is needed to detect the tempo as a fast reach. 
+**librosa.beat** is needed to detect the tempo as a fast reach.
 
 ### 1.2 The variation of Pitch for each character
 
